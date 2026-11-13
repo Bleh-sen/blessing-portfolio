@@ -64,48 +64,48 @@ document.querySelectorAll(".filter-button").forEach((button) => {
 const skillContent = {
   admin: {
     title: "Administration & Operations",
-    copy: "Structured support for the everyday work that keeps teams moving.",
-    tools: ["Microsoft Word", "Microsoft Excel", "Microsoft PowerPoint", "Outlook", "Google Docs", "Google Sheets", "Google Drive"],
+    copy: "Keeping offices organised and work moving.",
+    tools: ["Office administration", "Records management", "Document organisation", "Data entry", "Spreadsheet updates", "Correspondence & follow-ups", "Microsoft Word", "Excel", "PowerPoint", "Outlook", "Google Docs", "Google Sheets", "Google Drive"],
   },
   assist: {
     title: "Executive / Personal Assistance",
-    copy: "Organisation, scheduling and follow-through in academic and support settings.",
-    tools: ["Scheduling", "Document organisation", "Records management", "Data entry", "Spreadsheet updates", "Correspondence"],
+    copy: "Supporting the people who need to stay focused.",
+    tools: ["Scheduling", "Lecturer & manager support", "Meeting information", "Document preparation", "SIWES coordination support"],
   },
   client: {
     title: "Client Support & Communication",
-    copy: "Clear, considerate communication and dependable follow-up.",
-    tools: ["Client support", "Email correspondence", "Follow-ups", "Meeting coordination", "Digital communications"],
+    copy: "Clear, timely and professional communication.",
+    tools: ["Client enquiries", "Client follow-ups", "Official communications", "Announcements", "Written correspondence"],
   },
   social: {
     title: "Social Media Strategy & Management",
-    copy: "Practical account management, content coordination and consistent brand presentation.",
-    tools: ["Instagram", "TikTok", "Content planning", "Caption writing", "Canva", "CapCut", "Photoshop"],
+    copy: "Running accounts that look and sound like the brand.",
+    tools: ["Instagram management", "TikTok management", "Content planning", "Content coordination", "Caption writing", "Brand consistency"],
   },
   design: {
     title: "UI/UX & Design",
-    copy: "Product and visual design tools used in concepts and project work.",
-    tools: ["Figma", "Canva", "CapCut", "Photoshop", "Wireframing", "Visual editing"],
+    copy: "Interfaces, graphics and short-form visuals.",
+    tools: ["Interface design in Figma", "Social graphics in Canva", "Photo editing in Photoshop", "Video editing in CapCut", "Visual consistency"],
   },
   web: {
     title: "Web Development",
-    copy: "Front-end and web application technologies used in academic and personal projects.",
-    tools: ["HTML5", "CSS3", "JavaScript", "React.js", "Python", "Flask", "REST APIs", "Git", "GitHub", "VS Code"],
+    copy: "Building for the web, front to back.",
+    tools: ["HTML5", "CSS3", "JavaScript", "React.js", "REST APIs", "Git", "GitHub", "VS Code"],
   },
   data: {
     title: "Programming & Data",
-    copy: "Programming and data tools used across coursework and project work.",
-    tools: ["Python", "Pandas", "Jupyter Notebook", "MongoDB", "Git", "GitHub", "Excel"],
+    copy: "Working with code and data.",
+    tools: ["Python", "Flask", "MongoDB", "Pandas", "Jupyter Notebook"],
   },
   ai: {
     title: "AI & Machine Learning Concepts",
-    copy: "Introductory project exposure to AI and machine learning concepts.",
-    tools: ["AI concepts", "scikit-learn", "spaCy", "Python", "Jupyter Notebook"],
+    copy: "Foundational understanding from study and projects.",
+    tools: ["Machine learning foundations", "scikit-learn", "Natural language processing with spaCy", "AI concepts in project work", "Academic and project-level understanding"],
   },
   travel: {
     title: "Travel Technology",
-    copy: "Introductory exposure to reservation systems through travel administration work.",
-    tools: ["Sabre · introductory exposure", "Amadeus · introductory exposure", "Travel documentation"],
+    copy: "Systems behind travel bookings.",
+    tools: ["Sabre · Introductory", "Amadeus · Introductory", "Travel documentation", "Introductory exposure to Sabre and Amadeus"],
   },
 };
 
@@ -156,43 +156,43 @@ const projects = {
   talent: {
     type: "Academic project · Web app",
     title: "Smart Talent Acquisition System",
-    description: "A recruitment system concept combining a web interface with AI-assisted ideas. The project explores how a structured digital experience could support the talent acquisition process. Technologies and concepts include Python, Flask, React, MongoDB and AI.",
+    description: "A web-based recruitment system for posting roles, receiving applications and helping recruiters review candidates. The project combines a Flask back end, React interface and MongoDB database, and explores AI concepts for candidate screening and matching. Focus areas included the recruiter and applicant front end, a Python and Flask API, application data storage, and candidate-matching concepts. My role: Developer. Tools and focus: Python, Flask, React, MongoDB and AI concepts.",
     tags: ["Python", "Flask", "React", "MongoDB", "AI concepts"],
   },
   vericart: {
     type: "E-commerce · Project",
     title: "VeriCart",
-    description: "An e-commerce system project exploring product discovery and the online shopping experience. The image shown is a temporary visual mock-up, not a captured screen from the project.",
+    description: "An e-commerce system covering the core of an online store: product listings, a shopping cart and the steps a customer takes to place an order. Focus areas included product listing and browsing, the shopping cart and the order flow. My role: Developer. Tools and focus: web development and e-commerce.",
     tags: ["E-commerce", "Web development"],
   },
   skyne: {
     type: "Skincare app · Concept",
     title: "Skyne",
-    description: "A skincare app concept developed as a product idea. I contributed in a CMO role. This visual is a conceptual placeholder and does not represent a finished interface.",
+    description: "A skincare app concept. As Chief Marketing Officer (CMO), my focus was how the product would be positioned and presented to the people it was built for. Focus areas included product positioning, marketing direction and brand presentation. Tools and focus: product concept, marketing and branding.",
     tags: ["Skincare", "App concept", "CMO role"],
   },
   securelink: {
     type: "SOS · Demonstration",
     title: "SecureLink",
-    description: "An SOS demonstration project presented at an exhibition. The graphic here is illustrative only and is not an authentic product screen.",
+    description: "A demonstration project built around an SOS feature for emergencies. I presented it at an exhibition, explaining to visitors what the project does and how it works. Focus areas included the SOS demonstration and exhibition presentation. My role: Exhibition presenter. Tools and focus: SOS demo and presentation.",
     tags: ["SOS demonstration", "Exhibition presenter"],
   },
   abixa: {
     type: "Social media · Planning",
     title: "Abixa Analytics",
-    description: "Social media content planning work for Abixa Analytics. The calendar shown is a temporary portfolio mock-up, not an actual planning document.",
+    description: "Content planning for Abixa Analytics’ social media—organising post ideas, captions and timing into a plan the team could work from. Focus areas included content ideas, a planning calendar, captions and timing. My role: Content planning. Tools and focus: content calendar, captions and scheduling.",
     tags: ["Content planning", "Social media"],
   },
   tedx: {
     type: "Campaign · Social media",
     title: "TEDx Veritas University",
-    description: "Social media management and content coordination for TEDx Veritas University. Campaign content achieved over 67,000 organic views in 30 days.",
+    description: "I managed social media and coordinated content for TEDx Veritas University between March and June 2026, building attention around the event. Focus areas included social media management, content coordination and campaign posting. Result: over 67,000 organic views in 30 days. My role: Social Media Manager. Tools and focus: Instagram and content coordination.",
     tags: ["Social media", "Content coordination", "67,000+ organic views in 30 days"],
   },
   vuna: {
     type: "Digital communications",
     title: "VUNA CSC",
-    description: "Established and managed Instagram and TikTok presence for VUNA CSC, with digital communications and announcements. The channel art shown is a placeholder mock-up.",
+    description: "As Media Head, I established VUNA CSC’s Instagram and TikTok presence and managed its digital communications, including announcements to members. Focus areas included account set-up, ongoing platform management and digital announcements. My role: Media Head / Account Manager. Tools and focus: Instagram, TikTok, Canva and CapCut.",
     tags: ["Instagram", "TikTok", "Digital communications"],
   },
 };
@@ -338,13 +338,14 @@ contactForm.addEventListener("submit", (event) => {
   const formData = new FormData(contactForm);
   const name = String(formData.get("name")).trim();
   const senderEmail = String(formData.get("email")).trim();
+  const messageSubject = String(formData.get("subject")).trim();
   const message = String(formData.get("message")).trim();
   if (name.length < 2 || message.length < 10) {
     formFeedback.textContent = "Please enter your name and a message of at least 10 characters.";
     formFeedback.classList.add("is-error");
     return;
   }
-  const subject = encodeURIComponent(`Portfolio enquiry from ${name}`);
+  const subject = encodeURIComponent(messageSubject || `Portfolio enquiry from ${name}`);
   const body = encodeURIComponent(`Name: ${name}\nEmail: ${senderEmail}\n\n${message}`);
   window.location.href = `mailto:blessingejindu96@gmail.com?subject=${subject}&body=${body}`;
   formFeedback.textContent = "Your email app should open with your message ready. If it doesn’t, email blessingejindu96@gmail.com directly.";
