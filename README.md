@@ -18,3 +18,7 @@ Open `index.html` in a browser. For local development, a static file server or t
 ## Accessibility and responsive behavior
 
 The site includes a keyboard-accessible mobile navigation, active section indicators, keyboard-operable skill tabs, expandable experience details, focusable project dialogs and a reduced-motion preference. The layout adapts for mobile and tablet widths.
+
+## Deployment test
+
+Harmless README-only change to verify GitHub-to-Vercel production deployments.
